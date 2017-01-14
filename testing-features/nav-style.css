@@ -1,0 +1,17 @@
+body { padding-top: 50px; }
+
+.navbar {
+  background-color: #106535;
+}
+
+#nav_logo {
+  max-width: 30px;
+  max-height: 30px;
+}
+
+
+#hero_image {
+  background-image: url("../static/cooking_class.jpg");
+  background-size: 100% 100%;
+  text-align: center;
+}

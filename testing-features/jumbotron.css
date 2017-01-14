@@ -1,0 +1,19 @@
+/* Move down content because we have a fixed navbar that is 50px tall */
+body {
+  padding-top: 40px;
+  padding-bottom: 20px;
+}
+
+.navbar {
+  background-color: #106535;
+}
+
+#nav_logo {
+  max-width: 30px;
+  max-height: 30px;
+}
+
+.jumbotron {
+    background-image: url("../static/cooking_class.jpg");
+    background-size: cover;
+}
