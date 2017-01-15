@@ -14,6 +14,26 @@ body {
 }
 
 .jumbotron {
+    height: 100vh;
     background-image: url("../static/cooking_class.jpg");
     background-size: cover;
+}
+
+.hero_image {
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+}
+
+/*
+.container {
+  display: inline-block;
+  vertical-align: middle;
+  float: none;
+}
+*/
+
+.hero_text {
+  margin: auto;
+  text-align: center;
 }
