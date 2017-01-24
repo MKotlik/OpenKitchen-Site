@@ -4,35 +4,90 @@ body {
   padding-bottom: 20px;
 }
 
+section {
+  padding: 50px 0;
+}
+
+.bg-emphasis {
+  background-color: #106535;
+  color: white;
+}
+
+.bg-normal {
+  background-color: white;
+}
+
+.section-heading {
+  margin-top: 0;
+}
+
+hr {
+  border-color: #106535;
+  border-width: 2px;
+  max-width: 100px;
+}
+
+hr.light {
+  border-color: white;
+}
+
 .navbar {
   background-color: #106535;
 }
 
-#nav_logo {
+#nav-logo {
   max-width: 30px;
   max-height: 30px;
 }
 
-.jumbotron {
+#hero-image {
   background-image: url("cooking_class.jpg");
   background-size: cover;
-  height: 100vh;
+  margin-bottom: 0;
 }
 
 .vertical-center {
-    min-height: 100%;
-    /* Fallback for browsers do NOT support vh unit */
-    min-height: 100vh;
-    /* These two lines are counted as one :-)       */
     display: flex;
     align-items: center;
 }
 
-.container {
+.hero-vertical {
+  min-height: 100%;
+  /* Fallback for browsers do NOT support vh unit */
+  min-height: 100vh;
+}
+
+#hero-image .container {
     text-align: center;
     color: #106535;
 }
 
-.container h1 {
+#hero-image .container h1 {
   font-weight: bold;
+}
+
+#mission2 {
+  padding: 0 0 0 0;
+  margin-bottom: 0;
+}
+
+.mission-vertical {
+  min-height: 25%;
+  /* Fallback for browsers do NOT support vh unit */
+  min-height: 25vh;
+}
+
+#mission2 .container {
+  text-align: center;
+  background-color: #106535;
+  color: white;
+  width: 100%;
+  /*
+  margin-left: 0px;
+  margin-right: 0px;
+  */
+}
+
+#mission2 .container h3 {
+  text-decoration: underline;
 }
